@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Bungee|Lobster');
 
 *,
 *:before,
@@ -9,7 +9,7 @@
 }
 
 html{
-	background-image: url('../media/skyrim.jpg');
+	background-image: url('../media/skyri.jpg');
 }
 section{
 
@@ -57,6 +57,14 @@ h2.maintxt{
 .col-1-2{
 	width: 50%;
 	border: 1px solid purple;
+}
+
+.bungee{
+	font-family: 'Bungee', cursive;
+}
+
+.lobster{
+	font-family: 'Lobster', cursive;
 }
 
 #top{
