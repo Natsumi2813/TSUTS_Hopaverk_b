@@ -8,13 +8,17 @@
           box-sizing: border-box;
 }
 
+
 a{
 	text-decoration: none;
 	color: rgb(0, 0, 0);
 }
-
+hr{
+	border-color: black;
+	opacity: 0.6;
+}
 html{
-	background-image: url('../media/skyri.jpg');
+	background-image: url('../media/Skyri.jpg');
 	background-repeat: no-repeat;
     background-attachment: fixed;
 	background-position: center;
@@ -26,6 +30,28 @@ h2.maintxt{
 	font-family: 'Bungee', cursive;
 	font-size: 30px;
 	text-align: center;
+}
+div{
+	opacity:0.4;
+	background-color: lightgray;
+	position: fixed;
+	bottom: 20px;
+    right: 20px;
+    border: solid black 2px;
+    border-radius: 50px 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div:hover{
+	opacity: 0.9;
+}
+div a{
+	font-size: 40px;
+}
+footer{
+	text-align: center;
+	opacity:0.5;
+	text-shadow: 2px 2px 2px rgb(29, 55, 95);
 }
 #main{
 	background-color: rgba(254,255,255, .7);
